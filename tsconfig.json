@@ -5,7 +5,9 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,                        
-    "skipLibCheck": true,
-    "outDir": "build"               
+    "strictNullChecks": false,
+    "outDir": "build",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,      
   }
 }
